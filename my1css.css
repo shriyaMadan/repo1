@@ -1,0 +1,96 @@
+body{
+margin:0;
+font-family: Georgia, "Times New Roman", Times, serif;
+color: #222;
+font-size:16px;
+}
+h1{
+	text-align:center;
+	position:relative;
+	color:#222;
+	height:80px;
+	font-weight:700;
+	font-size:76px;
+	font-family: BrandonGrotesque-Bold, futura , verdana , serif;
+}
+h2{
+	text-align:center;
+	position: relative;
+	display:block;
+    top: 10px;
+    font-size: 22px;
+	padding:22px;
+	border-top: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+	font-weight:normal;
+}
+img { // isko class dena .sofa, kyuki pure page me ek hi img nahi hota
+	height:100px;
+	width:135px;
+	position: relative;
+}
+.section1 {
+	margin-left: 50%;
+	transform: translate(-50%,0%);
+	margin-top: 80px;
+	display: inline-flex;
+	align-items: center;
+}
+	
+p{
+	margin-top:6px;
+	line-height:24px;
+    display:block;
+	margin-bottom:0;
+	height:26px;
+}
+
+ul{
+	list-style:none;
+}
+li{
+	float: left;
+    width: 220px;
+    height: 100px;
+    margin-top: 50px;
+    margin-right: 40px;
+	display:list-item;
+}
+.footer{
+    color:#eee;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 570px;
+	display:block;
+    font-family: "Lucida Grande";
+    color: #ccc;
+	text-align:center;
+	width: 1000px;
+    float: left;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.year{
+	float:left;
+	font-family: BrandonGrotesque-Regular, Futura, Verdana, serif;
+    font-size: 24px;
+    text-align:center;
+	color: #BBB;
+    margin-top: 42px;
+	position:relative;
+    width: 80px;
+    margin: 0 auto;
+	
+}
+.toyear{
+    width: 80px;
+    margin: 0 auto;
+	position:relative;
+	float:right;
+	font-family: BrandonGrotesque-Regular, Futura, Verdana, serif;
+    font-size: 24px;
+    color: #BBB;
+	text-align:center;
+}
